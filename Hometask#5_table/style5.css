@@ -1,0 +1,29 @@
+
+table{
+	border-collapse: collapse;
+		margin:auto;
+
+}
+
+td{border: 5px solid #000;
+	text-align: center;
+height: 52.2px;
+width: 56.7px;
+}
+
+
+.top{border-top:0; }
+.topright{border-top: 0;border-right: 0;}
+
+.bottomright{border-bottom: 0; border-right:0;}
+
+.bottomleft{border-bottom: 0; border-left:0;}
+.bottom{border-bottom: 0;}
+
+.right{border-right: 0;}
+.left{border-left: 0;}
+
+.both{border-top: 0; border-bottom: 0;}
+.bothright{border-top: 0; border-bottom: 0; border-right: 0;}
+
+.bordernone{border:0;}
