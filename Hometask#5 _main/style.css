@@ -4,6 +4,7 @@
 html {
   box-sizing: border-box;
   height: 100%;
+  overflow:  hidden; 
 }
 *, *:before, *:after {
   box-sizing: inherit;
@@ -12,11 +13,11 @@ body {
 	font-family: "HelveticaNeueLt", Arial, sans-serif;
 	font-size: 14px;
   height: 100%;
-  background: url("img/bg.jpg");
+/*  background: url("img/bg.jpg");
 background-repeat: no-repeat;
 background-position: center center;
 background-size: cover;
-background-attachment: fixed;
+ background-attachment: fixed; */
 }
 /*header*/
 .clearfix:before {
@@ -123,6 +124,11 @@ img.background {
     padding-top: 210px;
     padding-bottom: 210px;
   text-align: center;
+  background: url("img/bg.jpg");
+background-repeat: no-repeat;
+background-position: center center;
+background-size: cover;
+ background-attachment: fixed; 
 }
 .content:before {
   content: '';
