@@ -27,7 +27,7 @@ background-size: cover;
 }
 .container {
 	max-width: 1170px;
-	margin: 0 auto;
+	margin: 0 auto;	
 }
 .header {
 	height: 36px;
@@ -121,20 +121,19 @@ img.background {
 }
 .content {
     width: 100%;
-    padding-top: 210px;
-    padding-bottom: 210px;
+    height: 1030px;
   text-align: center;
   background: url("img/bg.jpg");
 background-repeat: no-repeat;
 background-position: center center;
 background-size: cover;
  background-attachment: fixed; 
+  position: relative;
 
 }
 .content:before {
   content: '';
   display: inline-block;
-  height: 100%;
   vertical-align: middle;
 }
 .form-wrap {
@@ -145,7 +144,8 @@ background-size: cover;
   color: #fff;
   text-align: center;
   margin: auto;
-  
+  margin-bottom:-110px;
+  margin-top: 110px;
   }
 
 .form-wrap h3 {
