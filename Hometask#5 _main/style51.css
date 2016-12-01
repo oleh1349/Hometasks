@@ -1,0 +1,204 @@
+*{margin: 0;
+padding: 0;}
+
+@font-face {
+    font-family: 'HelveticaNeueLt';
+    src: url('fonts/HelveticaNeueLt/HelveticaNeueLt.woff2') format('woff2'),
+         url('fonts/HelveticaNeueLt/HelveticaNeueLt.woff') format('woff'),
+         url("fonts/HelveticaNeueLt/HelveticaNeueLt.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+	font-family: "HelveticaNeueLt", Arial, sans-serif;
+	font-size: 14px;
+	background: url("img/bg.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center center;
+	background-size: cover;
+	}
+header{
+	height: 36px;
+	background: url(img/header-pattern.jpg) repeat-x 0 0;
+}
+.header_list {
+	float: right;
+	margin-right: 20px;
+}
+.header_list li {
+	display: inline-block;
+}
+.header_list li a {
+	color: #60b5ed;
+	text-decoration: none;
+	display: block;
+	padding: 0 12px;
+	line-height: 34px;
+	border: 1px solid transparent;
+}
+.header_list li a:hover {
+	background-color: #4eabda;
+	color: #fff;
+	border: 1px solid #60b5ed;
+}
+.link_other span {
+	text-decoration: underline;
+}
+.header_list a.link_other {
+	color: #fff;
+	border: 1px solid transparent;
+}
+.header_list a.hov,
+.header_list a.link_other:hover {
+	border: 1px solid #489bd5;
+	background: rgb(80,175,220);
+  background: -moz-linear-gradient(top, rgb(80,175,220) 0%, rgb(46,122,196) 100%);
+  background: -webkit-linear-gradient(top, rgb(80,175,220) 0%,rgb(46,122,196) 100%);
+  background: linear-gradient(to bottom, rgb(80,175,220) 0%,rgb(46,122,196) 100%);
+}
+.header_list a.link_fl {
+	padding-left: 33px;
+}
+}
+.header_list li:nth-child(5),
+.header_list li:nth-child(6) {
+	position: relative;
+}
+
+.header_list a.last_li:after {
+	content: '';
+	display: inline-block;
+	width: 1px;
+	height: 30px;
+	background-color: #60b5ed;
+	position: absolute;
+	top: 2px;
+	right: 370px;
+	margin-right: 8px;
+}
+.header_list a.link_fl:before {
+	content: '';
+	display: block;
+	background: url(img/flag.png) no-repeat 0 5px;
+	width: 25px;
+	height: 27px;
+	position: absolute;
+	top: 3px;
+	right: 337px;
+}
+.last_li {
+	margin-right: 10px;
+}
+img.background {
+  min-height: 100%;
+  min-width: 1215px;
+  width: 100%;
+  height: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+/*________*/
+.form-wrap {
+  vertical-align: middle;
+  width: 560px;
+  height: 615px;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: #fff;
+  text-align: center;
+  margin: auto;
+  margin-top: 50px;
+  }
+  .form-wrap h3 {
+	font-size: 24px;
+	padding: 20px 0;
+	border-bottom: 1px solid #b7bfaa;
+}
+.fb {
+	width: 276px;
+	height: 35px;
+	background-color: #344d86;
+	cursor: pointer;
+	border: 0;
+	margin-top: 35px;
+	background: url(img/fb.png) no-repeat;
+}
+.dec_line {
+	color: #7d7f7c;
+	position: relative;
+	margin: 30px 0 25px;
+}
+.dec_line p:after,
+.dec_line p:before {
+	content: '';
+	display: block;
+	width: 124px;
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #000;
+	position: absolute;
+}
+.dec_line p:before {
+	top: 6px;
+	left: 143px;
+}
+.dec_line p:after {
+	top: 6px;
+	right: 143px;
+}
+form {
+	width: 280px;
+	margin: 0 auto;
+}
+.form-wrap input[type="text"],
+.form-wrap input[type="email"],
+.form-wrap input[type="password"] {
+	display: block;
+	background-color: #000;
+	color: #fffbfb;
+	padding: 10px 18px;
+	border: 0;
+	margin-bottom: 15px;
+	width: 100%;
+	border-bottom: 1px solid #484948;
+}
+.form-wrap input[type="submit"] {
+	display: block;
+	margin: 15px auto 25px;
+}
+.form-wrap input[type="text"]:focus,
+.form-wrap input[type="email"]:focus,
+.form-wrap input[type="password"]:focus {
+	outline: none;
+	background-color: #1b5288;
+-webkit-box-shadow: 0px 0px 10px 0px rgba(75,134,176,1);
+-moz-box-shadow: 0px 0px 10px 0px rgba(75,134,176,1);
+box-shadow: 0px 0px 10px 0px rgba(75,134,176,1);
+}
+::-webkit-input-placeholder {
+   color: #fffbfb;
+}
+:-moz-placeholder {
+   color: #fffbfb;  
+}
+::-moz-placeholder {
+   color: #fffbfb;  
+}
+.butt_acc {
+	padding: 10px 13px;
+	border: 0;
+	margin: 10px 0 15px;
+	border-radius: 3px;
+	cursor: pointer;
+	color: #fff;
+	background: rgb(80,174,219);
+background: -moz-linear-gradient(top, rgb(80,174,219) 0%, rgb(46,122,196) 100%);
+background: -webkit-linear-gradient(top, rgb(80,174,219) 0%,rgb(46,122,196) 100%);
+background: linear-gradient(to bottom, rgb(80,174,219) 0%,rgb(46,122,196) 100%);
+}
+.form-wrap p {
+	font-size: 11px;
+	padding-bottom: 5px;
+}
