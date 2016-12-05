@@ -101,6 +101,11 @@ img.background {
   left: 0;
   z-index: -1;
 }
+/*@media screen and (max-width: 1215px) {
+  img.background {
+    left: 50%;
+    margin-left: -607px;
+  }*/
 /*________*/
 .form-wrap {
   vertical-align: middle;
@@ -109,8 +114,11 @@ img.background {
   background-color: rgba(0, 0, 0, 0.6);
   color: #fff;
   text-align: center;
-  margin: auto;
-  margin-top: 50px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -307px;
+  margin-left: -280px;
   }
   .form-wrap h3 {
 	font-size: 24px;
