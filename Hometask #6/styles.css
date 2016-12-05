@@ -1,0 +1,470 @@
+*{margin: 0; padding: 0;}
+
+@font-face {
+    font-family: 'Lucida Sans Unicode';
+    src: url('fonts/lucida_sans_unicode_regular-webfont.eot');
+    src: url('fonts/lucida_sans_unicode_regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/lucida_sans_unicode_regular-webfont.woff2') format('woff2'),
+         url('fonts/lucida_sans_unicode_regular-webfont.woff') format('woff'),
+         url('fonts/lucida_sans_unicode_regular-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.container{
+  width: 911px;
+  height: 1293px;
+ margin: auto;
+}
+header{
+  /*height: 35px;
+  width: 906px;*/
+  /*display: inline-block;*/
+}
+header div,form,p,span {display: inline-block;}
+.phone{
+  text-align: center;
+  width: 294px;
+  margin-left: 5px;
+  margin-top: 5px; 
+}
+.phone p{
+  font-family: Arial;
+  font-size: 18px;
+  color: #5e696d;
+  vertical-align: middle;
+}
+.phone span{
+  text-align: center;
+  /*margin-left: -13px; тот же вопрос..*/
+  vertical-align: middle;
+}
+/*header-form*/
+.header_form {
+  height: 24px;
+  width: 488px;
+  margin-bottom: 12px;
+  background-color: #0c3357;
+  background: linear-gradient(to top,#0c3357,#1f6685);
+   font-family: 'Lucida Sans Unicode', sans-serif;
+   border-radius: 4px;
+   padding-left: 7px;
+   line-height: 25px;
+   -webkit-box-shadow: 0px 3px 3px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 3px 3px 0px rgba(0,0,0,0.75);
+box-shadow: 0px 3px 3px 0px rgba(0,0,0,0.75);
+margin-top: 18px;
+margin-left: 9px;
+}
+
+.header_form span {
+  height: 18px;
+  vertical-align: middle;
+}
+
+.header_form a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 11px;
+  vertical-align: middle;
+  padding: 2px;
+}
+
+.header_form a:hover{
+  color: #bfbfbf;
+  font-size: 12px;
+  text-decoration:underline;
+}
+
+.header_form p {
+    padding-left: 1px;
+}
+
+.header_form input {
+  width: 112px;
+  height: 16px;
+  margin-bottom: 2px;
+  border: 1px solid #bfbfbf;
+  vertical-align: middle;
+}
+
+.hrefs {
+  height: 18px;
+  width: 74px;
+  border: 1px solid #c1c8cb;
+  border-radius: 10px;
+  text-align: center;
+  line-height: 19px;
+  margin: 0px 7px 0px 13px;
+   -webkit-box-shadow: 0px 3px 3px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 3px 3px 0px rgba(0,0,0,0.75);
+box-shadow: 0px 3px 3px 0px rgba(0,0,0,0.75);
+}
+
+
+.hrefs a {
+  padding: 0 5px 0 0;  /*для того, чтобы картинки иконок отодвинуть друг от друга*/
+}
+/*.header_bg {
+      margin-left: -3px;
+} -зачем этот марджин был?? Картинка выбивалась из контейнера*/
+
+/*menu*/
+
+.menu {
+  width: 910px;
+  height: 34px;
+  margin-top: 2px;
+  border-radius: 5px;
+  /*margin-left: -3px; --зачем этот марджин был?? Меню тоже вылазило из контейнера*/
+  background-color: #020202;
+  background: linear-gradient(to top,#020202,#2a2e32);
+  -webkit-box-shadow: 0px 3px 3px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 3px 3px 0px rgba(0,0,0,0.75);
+  box-shadow: 0px 3px 3px 0px rgba(0,0,0,0.75);
+  display: inline-block;
+  font-family:'Lucida Sans Unicode', sans-serif;
+}
+
+.menu nav {
+  display: inline-block;
+  margin-left: 120px;  
+  line-height: 34px;
+  margin-right: 0px; /*лишнее*/
+  vertical-align: middle;
+}
+ /*.menu ul li:first-child { margin-left: 0;} */
+
+.menu li {
+  /*width: 122px*/
+  height: 25px;
+  list-style: none;
+  display: inline-block;
+  text-align: center;
+  line-height: 25px;
+  float: left;
+  margin-left: 11px;
+  padding: 0 8px 0 11px;
+}
+
+.menu li:hover {
+  background-color: #0d3458;
+  background:linear-gradient(to top, #0d3458, #1f6787); 
+  border-radius: 12px;
+  color: #ffffff;
+} 
+/*#company:hover {
+	width: 121px;
+	 background-color: #0d3458;
+  background:linear-gradient(to top, #0d3458, #1f6787); 
+  border-radius: 15px;
+  color: #ffffff; 
+  text-align: center;
+  line-height: 25px;
+}*/
+.menu a {
+  font-size: 14px;
+  color: #b1bcc0;
+  text-decoration: none;
+  /*padding-left:17px;*/
+  font-family:'Lucida Sans Unicode', sans-serif;
+}
+
+.menu a:hover {
+  color: #ffffff;
+}
+
+/*basket_hrefs*/
+.basket_hrefs {
+  height: 34px;
+ /* width: 200px;*/
+  display: inline-block;
+  margin-left: 55px;
+  line-height: 34px;
+}
+
+.basket_hrefs p {
+  font-family: Arial, sans-serif;
+  font-size: 11px;
+  color: #929b9f;
+}
+
+.basket_hrefs span{
+  font-family: Arial, sans-serif;
+  font-size: 12px;
+  color: #0d5a8f;
+  padding: 0 9px 0 2px; 
+}
+section {
+  height: 135px;
+  width: 910px;
+  margin-bottom: -1px;
+  background-color: #ffffff;
+  margin-top: 13px;
+
+}
+
+section div {
+  margin-top: -5px;
+}
+
+/*leftside*/
+.leftside {
+  height: 524px;
+  width: 192px;
+  /*border:1px solid black;*/
+  float: left; 
+  font-family: 'Lucida Sans Unicode', sans-serif;                  
+}
+
+.leftside h1 {
+  height: 26px;
+  width: 180px;
+  margin-top: 19px;
+  border: 1px solid #8b979c;
+  border-radius: 15px;
+  font-size: 12.73px;
+  color: #114165;
+  text-align: center;
+  line-height: 26px;
+  -webkit-box-shadow: 0px 3px 3px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 3px 3px 0px rgba(0,0,0,0.75);
+  box-shadow: 0px 3px 3px 0px rgba(0,0,0,0.75);
+}
+
+.leftside p {
+  height: 26px;
+  width: 149px;
+  margin-top: 13px;
+  border: 1px solid #8b979c;
+  border-radius: 15px;
+  font-size: 14px;
+  color: #114165;
+}
+
+.leftside h1, p span {
+  vertical-align: middle;
+  line-height: 26px;
+  text-align: center;
+  padding-left: 3px;
+}
+
+.leftside li {
+  margin-left: 45px;
+  line-height: 19px;
+  list-style-image: url(img/circle_mark.png);
+  padding-top: 5px;
+}
+
+.leftside a {
+  font-size: 12.73px;
+  color: #465961;
+  text-decoration: none;
+}
+
+.leftside a:hover {
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  font-style: italic;
+  font-weight: bold;
+  color: #0c3256;
+  border-bottom: 2px solid #97a0ac;
+}
+
+.leftside li:hover {
+  list-style-image: url(img/circle_mark_hov.png);
+}
+
+.content:after {
+content: '';
+clear: both;
+}
+
+  /*main*/
+main {
+  height: 626px;
+  width: 526px;
+  background-color: #94a7b0;
+   background:  linear-gradient(to top, #94a7b0, #e5e7e8  100%);
+   margin-top: 14px;
+   float: left;
+}
+
+main div {
+  display: inline-block;
+}
+
+.goodyear {
+  height: 507px;
+  width: 137px;
+  margin-top: 15px;
+  margin-left: 23px;
+}
+
+.nokian {
+  height: 507px;
+  width: 137px;
+  margin-top: 15px;
+  margin-left: 30px;
+}
+
+.hankook {
+  height: 507px;
+  width: 137px;
+  margin-top: 15px;
+  margin-left: 30px;
+}
+
+figure {
+  margin-bottom: 31px;
+  text-align: center;
+  line-height: 15px;
+}
+figcaption {
+  font-family: Arial;
+  font-size: 16px;
+  font-weight: bold;
+  font-style: italic;
+  color: #114165;
+  margin-top: 6px;
+}
+figcaption em {
+   font-family: Arial;
+  font-size: 12px;
+  font-weight: bold;
+  font-style: italic;
+  color: #114165;
+}
+main h2 {
+  font-family: 'Lucida Sans Unicode', sans-serif;
+  font-size: 14.59px;
+  color: #206988;
+}
+
+main span {
+  font-family: 'Lucida Sans Unicode', sans-serif;
+  font-size: 12.77px;
+  color: #1f2528;
+}
+
+main p {
+  height: 127px;
+  width: 137px;
+  background-color: #ffffff;
+  border: 1px solid #b0b9bc;
+  border-radius: 10px;
+  vertical-align: middle;
+}
+
+/*rightside*/
+
+.rightside {
+  height: 524px;
+  width: 181px;
+  float: right;
+  /*margin-top: -828px;*/
+  margin-right: -5px;
+  /*border: 1px solid black;*/
+}
+
+.rightside h1 {
+ height: 26px;
+  width: 180px;
+  margin-top: 19px;
+  border: 1px solid #8b979c;
+  border-radius: 15px;
+  font-size: 14px;
+  color: #114165;
+  font-family: 'Lucida Sans Unicode', sans-serif;
+  -webkit-box-shadow: 0px 3px 3px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 3px 3px 0px rgba(0,0,0,0.75);
+  box-shadow: 0px 3px 3px 0px rgba(0,0,0,0.75);
+}
+
+.rightside p {
+  height: 26px;
+  width: 149px;
+  margin-top: 13px;
+  border: 1px solid #8b979c;
+  border-radius: 15px;
+  font-size: 14px;
+  color: #114165;
+}
+
+.rightside span {
+    font-family: 'Lucida Sans Unicode', sans-serif;
+   font-size: 12.73px;
+   color: #465961;
+}
+
+.rightside input {
+  margin-left: 25px;
+  line-height: 19px;
+  margin-top: 13px;
+}
+
+.but_choose {
+  height: 24px;
+  width: 79px;
+  font-family: Arial, sans-serif;
+  font-size: 11px;
+  background: linear-gradient(to top, #0d365a, #1f6787);
+  border-style: none;
+  border-radius: 10px;
+  color: #e5e9ea;
+  margin-top: 20px;
+}
+
+/*logos*/
+
+.logos {
+  display: inline-block;
+  height: 40px;
+  width: 911px;
+  text-align: center;
+  margin-top: 39px;
+  clear: both;
+}
+
+.logos p {
+  margin-left: 13px;
+  vertical-align: top;
+  padding-top: 4px;
+}
+
+
+/*footer*/
+
+footer {
+  height: 100px;
+  width: 911px;
+  background-color: #213a4d;
+  font-family: Arial;
+  margin-top: 19px;
+  margin-left: -2px;
+}
+
+footer nav {
+  text-align: center;
+  margin-top: 13px;
+}
+
+footer a, span {
+  text-decoration:none;
+  font-size: 12px;
+  color: #b0b9bc;
+  text-align: center;
+}
+
+footer a:hover {
+  color: #52abcb;
+}
+
+footer p {
+    font-size: 10px;
+    color: #7f4740;
+    text-align: center;
+    margin-left: 378px;
+    margin-top: 20px;
+
+}

@@ -12,6 +12,11 @@ body {
 	font-family: "HelveticaNeueLt", Arial, sans-serif;
 	font-size: 14px;
   height: 100%;
+  background: url("img/bg.jpg");
+background-repeat: no-repeat;
+background-position: center center;
+background-size: cover;
+background-attachment: fixed;
 }
 /*header*/
 .clearfix:before {
@@ -115,8 +120,7 @@ img.background {
 /*form*/
 /*centered block*/
 .content {
-  text-align: center;
-  width: 100%;
+    width: 100%;
   height: 100%;
 }
 .content:before {
@@ -132,7 +136,10 @@ img.background {
   height: 615px;
   background-color: rgba(0, 0, 0, 0.6);
   color: #fff;
-}
+  text-align: center;
+  margin-left: 50%;
+  margin-top: 50%;
+  }
 /*inner form style*/
 .form-wrap h3 {
 	font-size: 24px;
