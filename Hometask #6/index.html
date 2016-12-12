@@ -21,9 +21,11 @@
 							<form action="#" method="POST">
 								<input type="text" name="login" placeholder="логин">
 								<input type="password" name="password" placeholder="пароль">
+								<button type="submit" name="enter"><a href="#">вход</a>
+								</button>
 							</form>
 						<div>
-							<a href="#">вход |</a> 
+							<p class="line">|</p>
 							<a href="#">регистрация</a>
 						</div>
 							<p>
@@ -44,11 +46,11 @@
 		<div class="menu">	
 			<nav>
 			<ul>
-				<li id="company"><a href="#">О КОМПАНИ</a></li>
-				<li><a href="#">ОПЛАТА</a></li>
-				<li><a href="#">ДОСТАВКА</a></li>
-				<li><a href="#">СТАТЬИ</a></li>
-				<li><a href="#">КОНТАКТЫ</a></li>
+				<li id="company"><a href="#">о компани</a></li>
+				<li><a href="#">оплата</a></li>
+				<li><a href="#">доставка</a></li>
+				<li><a href="#">статьи</a></li>
+				<li><a href="#">контакты</a></li>
 				</ul>
 			</nav>
 			<div class="basket_hrefs">
@@ -71,22 +73,22 @@
 		<div class="content">
 		<!-- aside left -->
 		<aside class="leftside">
-			<h1><span><img src="img/circle_list.png" alt="circle_list"></span>КАТАЛОГ ПРОДУКЦИИ:</h1>
-				<p><span><img src="img/donutcircle.png" alt="donutcircle"></span>ШИНЫ</p>
+			<h1><span class="catalog_item"><img src="img/circle_list.png" alt="circle_list"></span>КАТАЛОГ ПРОДУКЦИИ:</h1>
+				<p id="tire"><span><img src="img/donutcircle.png" alt="donutcircle"></span>ШИНЫ</p>
 			<ul>
 				<li><a href="#">Наименование 1</a></li>
 				<li><a href="#">Наименование 2</a></li>
 				<li><a href="#">Наименование 3</a></li>
 				<li><a href="#">Наименование 4</a></li>
 			</ul>
-			<p><span><img src="img/donutcircle.png" alt="donutcircle"></span>ДИСКИ</p>
+			<p id="disk"><span><img src="img/donutcircle.png" alt="donutcircle"></span>ДИСКИ</p>
 			<ul>
 				<li><a href="#">Наименование 1</a></li>
 				<li><a href="#">Наименование 2</a></li>
 				<li><a href="#">Наименование 3</a></li>
 				<li><a href="#">Наименование 4</a></li>
 			</ul>
-			<p><span><img src="img/donutcircle.png" alt="donutcircle"></span>БОЛТЫ</p>
+			<p id="bolt"><span><img src="img/donutcircle.png" alt="donutcircle"></span>БОЛТЫ</p>
 			<ul>
 				<li><a href="#">Наименование 1</a></li>
 				<li><a href="#">Наименование 2</a></li>
@@ -168,7 +170,7 @@
 	 </main>
 		<!-- aside right -->
 		<aside class="rightside">
-			<h1><span><img src="img/circle_list.png" alt="circle_list"></span>БРЕНДЫ:</h1>
+			<h1><span class="catalog_item"><img src="img/circle_list.png" alt="circle_list"></span>БРЕНДЫ:</h1>
 			<p><span><img src="img/donutcircle.png" alt="donutcircle"></span>ШИНЫ</p>
 			<form action="#" method="get">
 				<div>
@@ -184,7 +186,6 @@
 						<span>Бренд 3</span>
 				</div>
 				<p><span><img src="img/donutcircle.png" alt="donutcircle"></span>ДИСКИ</p>
-			<form action="#" method="get">
 				<div>
 					<input type="checkbox" name="brand 1">
 						<span>Бренд 1</span>
@@ -221,7 +222,7 @@
 				<a href="#">Статьи</a>&nbsp;<span>|</span>&nbsp;
 				<a href="#">Контакты</a> 
 			</nav>
-			<p>Создание сайта &copy Global Vision</p>
+			<p>Создание сайта &copy; Global Vision</p>
 		</footer>
 	</div>	
 </body>

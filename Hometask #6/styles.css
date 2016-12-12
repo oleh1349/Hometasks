@@ -36,7 +36,6 @@ header div,form,p,span {display: inline-block;}
 }
 .phone span{
   text-align: center;
-  /*margin-left: -13px; тот же вопрос..*/
   vertical-align: middle;
 }
 /*header-form*/
@@ -87,7 +86,16 @@ margin-left: 9px;
   border: 1px solid #bfbfbf;
   vertical-align: middle;
 }
-
+.header_form button {
+  border:0;
+  background-color: transparent;
+  height: 15px;
+  vertical-align: middle;
+  margin-bottom: 5px;
+}
+.line {
+  color: #fbfbfb;
+}
 .hrefs {
   height: 18px;
   width: 74px;
@@ -103,12 +111,8 @@ box-shadow: 0px 3px 3px 0px rgba(0,0,0,0.75);
 
 
 .hrefs a {
-  padding: 0 5px 0 0;  /*для того, чтобы картинки иконок отодвинуть друг от друга*/
+  padding: 0 5px 0 0;  
 }
-/*.header_bg {
-      margin-left: -3px;
-} -зачем этот марджин был?? Картинка выбивалась из контейнера*/
-
 /*menu*/
 
 .menu {
@@ -116,7 +120,6 @@ box-shadow: 0px 3px 3px 0px rgba(0,0,0,0.75);
   height: 34px;
   margin-top: 2px;
   border-radius: 5px;
-  /*margin-left: -3px; --зачем этот марджин был?? Меню тоже вылазило из контейнера*/
   background-color: #020202;
   background: linear-gradient(to top,#020202,#2a2e32);
   -webkit-box-shadow: 0px 3px 3px 0px rgba(0,0,0,0.75);
@@ -133,10 +136,8 @@ box-shadow: 0px 3px 3px 0px rgba(0,0,0,0.75);
   margin-right: 0px; /*лишнее*/
   vertical-align: middle;
 }
- /*.menu ul li:first-child { margin-left: 0;} */
 
 .menu li {
-  /*width: 122px*/
   height: 25px;
   list-style: none;
   display: inline-block;
@@ -168,6 +169,7 @@ box-shadow: 0px 3px 3px 0px rgba(0,0,0,0.75);
   text-decoration: none;
   /*padding-left:17px;*/
   font-family:'Lucida Sans Unicode', sans-serif;
+  text-transform: uppercase;
 }
 
 .menu a:hover {
@@ -220,7 +222,7 @@ section div {
 .leftside h1 {
   height: 26px;
   width: 180px;
-  margin-top: 19px;
+  margin-top: 22px;
   border: 1px solid #8b979c;
   border-radius: 15px;
   font-size: 12.73px;
@@ -242,6 +244,18 @@ section div {
   color: #114165;
 }
 
+#disk {
+	margin-top: 4px;
+}
+
+#tire {
+	margin-top: 10px;
+}
+
+#bolt {
+	margin-top: -2px;
+}
+
 .leftside h1, p span {
   vertical-align: middle;
   line-height: 26px;
@@ -249,11 +263,15 @@ section div {
   padding-left: 3px;
 }
 
+.catalog_item {
+	vertical-align: middle; 
+	padding: 0 5px 0 4px;
+}
+
 .leftside li {
-  margin-left: 45px;
-  line-height: 19px;
-  list-style-image: url(img/circle_mark.png);
-  padding-top: 5px;
+    margin-left: 51px;
+    line-height: 24px;
+    list-style-image: url(img/circle_mark.png);
 }
 
 .leftside a {
@@ -285,9 +303,10 @@ main {
   height: 626px;
   width: 526px;
   background-color: #94a7b0;
-   background:  linear-gradient(to top, #94a7b0, #e5e7e8  100%);
-   margin-top: 14px;
-   float: left;
+  background:  linear-gradient(to top, #94a7b0, #e5e7e8  100%);
+  border-radius: 3px;
+  margin-top: 19px;
+  float: left;
 }
 
 main div {
@@ -312,11 +331,11 @@ main div {
   height: 507px;
   width: 137px;
   margin-top: 15px;
-  margin-left: 30px;
+  margin-left: 24px;
 }
 
 figure {
-  margin-bottom: 31px;
+  margin-bottom: 17px;
   text-align: center;
   line-height: 15px;
 }
@@ -363,7 +382,7 @@ main p {
   width: 181px;
   float: right;
   /*margin-top: -828px;*/
-  margin-right: -5px;
+  margin-right: 0px;
   /*border: 1px solid black;*/
 }
 
@@ -382,13 +401,14 @@ main p {
 }
 
 .rightside p {
-  height: 26px;
-  width: 149px;
-  margin-top: 13px;
-  border: 1px solid #8b979c;
-  border-radius: 15px;
-  font-size: 14px;
-  color: #114165;
+    height: 26px;
+    width: 133px;
+    margin-top: 13px;
+    margin-left: 12px;
+    border: 1px solid #8b979c;
+    border-radius: 15px;
+    font-size: 14px;
+    color: #114165;
 }
 
 .rightside span {
@@ -401,6 +421,10 @@ main p {
   margin-left: 25px;
   line-height: 19px;
   margin-top: 13px;
+}
+
+.rightside form div {
+	line-height: 1px; 
 }
 
 .but_choose {
@@ -440,13 +464,13 @@ footer {
   width: 911px;
   background-color: #213a4d;
   font-family: Arial;
-  margin-top: 19px;
-  margin-left: -2px;
+  margin-top: 13px;
 }
 
 footer nav {
-  text-align: center;
-  margin-top: 13px;
+    text-align: center;
+    padding: 8px 27px 0px 35px;
+    letter-spacing: 1px;
 }
 
 footer a, span {
@@ -465,6 +489,6 @@ footer p {
     color: #7f4740;
     text-align: center;
     margin-left: 378px;
-    margin-top: 20px;
+    margin-top: 13px;
 
 }
