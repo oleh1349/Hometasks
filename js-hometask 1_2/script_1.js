@@ -1,13 +1,13 @@
 var num = prompt('Enter the num', '');
 var power = prompt('Enter the power', '');
 
-//почему-то не срабатывает, проверка на ввод только цифр
-// while (num === NaN ) {
-// 	var num = prompt('Enter the num', '');
-// }
-// while (power === NaN) {
-// var power = prompt('Enter the power', '');
-// }
+// почему-то не срабатывает, проверка на ввод только цифр
+while (isNaN (num)) {
+	var num = prompt('Enter the num', '');
+}
+while (isNaN (power)) {
+var power = prompt('Enter the power', '');
+}
 function pow (num,power) {
 	var result = num;
 if (power >= 1){
