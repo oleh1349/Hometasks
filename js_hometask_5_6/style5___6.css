@@ -1,0 +1,57 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+.wrapper {
+	width: 900px;
+	height: 500px;
+	background-color: #f1f57b;
+	margin: auto;
+}
+.divTable {
+	width: 600px;
+	height: 200px;
+	margin: 0 auto;
+	background-color: #046a73;
+	border-radius: 10px;
+	border: 2px solid #ff2703;
+	}
+	p {
+		text-align: center;
+		margin-top: 60px; 
+	}
+span {
+	display: block;
+}
+
+	.timeVisual{
+		color: #919899; 
+		font-size: 72px;
+		 font-weight: bold;"
+	}
+	.msecTimeVisual{
+		color: black; 
+		font-size: 24px;
+		 
+	}
+	.startButt{
+		float: left;
+		width: 200px;
+		height: 100px;
+		border-radius: 10px;
+	border: 2px solid black;
+	margin: 50px 150px 100px 150px;
+	
+	}
+
+	.clearButt {
+		float: right;
+		width: 200px;
+		height: 100px;
+		background-color: red;
+		border-radius: 10px;
+	border: 2px solid black;
+	margin-top: 50px;
+	margin-right: 150px;
+
+	}
